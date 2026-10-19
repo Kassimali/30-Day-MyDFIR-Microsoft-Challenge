@@ -79,16 +79,16 @@ The following screenshots document my hands-on activities:
 Onboarded Windows endpoint in Microsoft Defender.
 
 
-[mydifir-kassim-pc](./screenshots/mydifir-kassim-pc.png)
+![mydifir-kassim-pc](./screenshots/mydifir-kassim-pc.png)
 
 Attack Surface Reduction policy 
 
 
-[Mydifir-kassim-ASRPolicy](./screenshots/Mydifir-kassim-ASRPolicy.png)
+![Mydifir-kassim-ASRPolicy](./screenshots/Mydifir-kassim-ASRPolicy.png)
 
 Alerts generated during the Atomic Red Team simulation
 
-[XDR-Alerts](./screenshots/XDR-Alerts.png)
+![XDR-Alerts](./screenshots/XDR-Alerts.png)
 
 ## What I Learned
 
