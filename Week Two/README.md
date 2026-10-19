@@ -22,7 +22,6 @@ Safe Links protects users by checking URLs at the time of delivery and, when con
 
 Safe Links can protect URLs in supported email messages and Microsoft Office applications, as well as Microsoft Teams when the relevant protection is configured.
 
-**Key takeaway:** Configuring Safe Links is an important step in reducing the risk of users accessing malicious websites through phishing emails.
 
 ## Task 2: Configure Anti-Phishing Protection 
 
