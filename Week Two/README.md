@@ -2,7 +2,7 @@
 
 As part of my [30-Day MyDFIR Microsoft Challenge](https://github.com/Kassimali/30-Day-MyDFIR-Microsoft-Challenge/tree/main), I focused on email security using Microsoft Defender for Office 365. This week, I explored the tools Microsoft provides to protect users against phishing, malicious links, impersonation, and other email-based threats.
 
-I organized my hands-on activities into three main tasks: configuring Safe Links and Anti-Phishing policies, exploring email investigation tools, and simulating phishing attacks using Attack Simulation Training.
+I organized my hands-on activities into four main tasks: configuring Safe Links, Anti-Phishing policies, exploring email investigation tools, and simulating phishing attacks using Attack Simulation Training.
 
 ## Task 1: Configure and Test Safe Links Policy
 
@@ -49,7 +49,7 @@ Some common phishing techniques include:
 
 Microsoft Defender uses machine-learning-based detection and configured policy settings to help identify phishing and impersonation attempts.
 
-### 2. Explore Microsoft Defender Email Security Tools
+### Task 3. Explore Microsoft Defender Email Security Tools
 
 During this task, I explored several tools in the Microsoft Defender portal and learned how they can support email threat investigation and response.
 
@@ -104,7 +104,7 @@ I also explored the relationship between the different email security features a
 
 These capabilities work together to reduce the risk of email-based attacks and provide security analysts with tools to investigate suspicious activity.
 
-## Task 3: Simulate a Phishing Attack Using Attack Simulation Training
+## Task 4: Simulate a Phishing Attack Using Attack Simulation Training
 
 For the third task, I explored Microsoft's built-in Attack Simulation Training feature to simulate a phishing attack in a controlled lab environment.
 
@@ -128,22 +128,21 @@ All simulations were intended for the controlled lab environment and its designa
 
 The following screenshots document the configurations and results of my hands-on activities:
 
-Mydifir-Kassim-SafeLinksPolicy
+Safe Links Policy Configuration
 
-![Safe Link Policy](./screenshots/Mydifir-Kassim-SafeLinksPolicy)
-
-
-Mydifir-Kassim-AntiPhishingPolicy
-
-![Mydifir-Kassim-AntiPhishingPolicy](./screenshots/Mydifir-Kassim-AntiPhishingPolicy)
-
-Sample phishing email received by the test user
+![Safe Link Policy](./screenshots/Mydifir-Kassim-SafeLinksPolicy.png)
 
 
-![phishingEmailReceivedExample](./screenshots/phishingEmailReceivedExample)
+Anti-Phishing Policy Configuration
 
-Hassan Abdi Clicks the simulated phishing link
-![HassanAbdiClicksMaliciouslink](./screenshots/HassanAbdiClicksMaliciouslink)
+![Mydifir-Kassim-AntiPhishingPolicy](./screenshots/Mydifir-Kassim-AntiPhishingPolicy.png)
+
+Sample Phishing Email Received by the Test User
+
+![phishingEmailReceivedExample](./screenshots/phishingEmailReceivedExample.png)
+
+Hassan Abdi Clicks the Simulated Phishing Link
+![HassanAbdiClicksMaliciouslink](./screenshots/HassanAbdiClicksMaliciouslink.png)
 
 ## What I Learned
 
