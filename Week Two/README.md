@@ -8,7 +8,7 @@ I organized my hands-on activities into three main tasks: configuring Safe Links
 
 ### Lab Setup
 
-1. Created two users, Hassan Abd and Sarah Ali, in the Microsoft 365 Admin Center and assigned them Microsoft 365 E5 licenses.
+1. Created two users, Hassan Abd and Sarah Ali, in the Microsoft 365 Admin Center and assigned them Microsoft 365 E5 Trial.
 2. Activated their mailboxes by signing in to their accounts.
 3. Explored the different email security tools available under Email & Collaboration in the Microsoft Defender portal.
 4. Created a Safe Links policy named `Mydifir-Kassim-SafeLinksPolicy`.
@@ -17,7 +17,7 @@ I organized my hands-on activities into three main tasks: configuring Safe Links
 
 ### Observations
 
-Sarah received the email with a security warning, and the link was disabled in the message. This demonstrated how Safe Links can help protect users from potentially malicious URLs.
+Sarah received the email with a security warning, and the link was rewriten in the message. This demonstrated how Safe Links can help protect users from potentially malicious URLs.
 
 Safe Links protects users by checking URLs at the time of delivery and, when configured, checking them again when users click the links. It can rewrite URLs and block access to malicious destinations based on the applicable policy settings and security verdicts.
 
@@ -118,18 +118,7 @@ This tool is useful for assessing how users respond to phishing attempts, identi
 4. Configured the simulation for the lab users.
 5. Explored how the simulation can track user interactions and support follow-up training.
 
-### Why Attack Simulation Training Matters
-
-Attack Simulation Training helps organizations assess whether users can recognize and report phishing attempts.
-
-It can help security teams determine:
-
-- Which users clicked simulated phishing links.
-- Which users submitted credentials in a simulation, where that activity is tracked.
-- Which users reported simulated phishing messages.
-- Which users may benefit from additional security awareness training.
-
-The feature can also assign targeted training to users based on their actions during a simulation, depending on the configuration.
+### Please view the attached Investigation-Report.md for further details
 
 **From a SOC perspective, this provides an opportunity to understand the human side of email security.** Technical controls such as Safe Links and Anti-Phishing policies are important, but user awareness and timely reporting also play a significant role in reducing phishing risk.
 
@@ -139,13 +128,22 @@ All simulations were intended for the controlled lab environment and its designa
 
 The following screenshots document the configurations and results of my hands-on activities:
 
-1. `Mydifir-Kassim-SafeLinksPolicy` — Safe Links policy configuration.
-2. `Mydifir-Kassim-AntiPhishingPolicy` — Anti-Phishing policy configuration.
-3. Sample phishing email received by the test user.
-4. Safe Links warning or blocked-link behavior observed during testing.
-5. Attack Simulation Training credential-harvesting simulation configuration.
-6. Simulation results showing the recorded user interactions, where available.
-7. Relevant Threat Explorer and Quarantine views used during the investigation.
+Mydifir-Kassim-SafeLinksPolicy
+
+![Safe Link Policy](./screenshots/Mydifir-Kassim-SafeLinksPolicy)
+
+
+Mydifir-Kassim-AntiPhishingPolicy
+
+![Mydifir-Kassim-AntiPhishingPolicy](./screenshots/Mydifir-Kassim-AntiPhishingPolicy)
+
+Sample phishing email received by the test user
+
+
+![phishingEmailReceivedExample](./screenshots/phishingEmailReceivedExample)
+
+Hassan Abdi Clicks the simulated phishing link
+![HassanAbdiClicksMaliciouslink](./screenshots/HassanAbdiClicksMaliciouslink)
 
 ## What I Learned
 
