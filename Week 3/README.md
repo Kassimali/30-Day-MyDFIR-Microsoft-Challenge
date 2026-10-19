@@ -27,7 +27,7 @@ I also connected Microsoft Defender XDR with Microsoft Sentinel to explore how e
 
 I explored Microsoft Intune, particularly the Endpoint Security section, and created an Attack Surface Reduction (ASR) policy for my test device.
 
-Before applying the policy, I configured the relevant Windows device management settings and joined the test VM to the organization's environment. I then assigned the ASR policy to the test device and validated its application.
+Before applying the policy, I configured the relevant Windows device management settings and joined the test VM to the organization's domain. I then assigned the ASR policy to the test device and validated its application.
 
 ASR rules help reduce the attack surface by blocking or restricting behaviors commonly abused by attackers.
 
@@ -70,11 +70,7 @@ Several alerts were generated during the exercise, including:
 - **PowerSploit post-exploitation tool — Medium severity**
 - **PsDnsTxtExec malware prevented from executing — Low severity**
 
-For the main investigation, I selected the high-severity Mimikatz credential theft detection and reviewed the related attack disruption and PowerSploit alerts to determine whether they were connected to the same activity.
 
-The investigation focuses on understanding the detection evidence, establishing the event timeline, determining whether the simulated activity was prevented, and validating the automated response actions.
-
-A separate investigation report documents the findings, analysis, and recommendations.
 
 ## Screenshots and Evidence
 
@@ -92,11 +88,7 @@ Attack Surface Reduction policy
 
 Alerts generated during the Atomic Red Team simulation
 
-[XDR-Alerts](./screenshots/XDR-Alerts)
-
-4. Mimikatz detection details — Evidence supporting the credential theft investigation.
-5. Attack disruption details — Evidence of the automated response action and device containment.
-6. Microsoft Sentinel — Evidence of the Defender XDR integration, if available.
+[XDR-Alerts](./screenshots/XDR-Alerts.png)
 
 ## What I Learned
 
