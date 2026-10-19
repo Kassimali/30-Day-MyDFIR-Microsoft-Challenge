@@ -10,10 +10,9 @@ I organized my hands-on activities into four main tasks: configuring Safe Links,
 
 1. Created two users, Hassan Abd and Sarah Ali, in the Microsoft 365 Admin Center and assigned them Microsoft 365 E5 Trial.
 2. Activated their mailboxes by signing in to their accounts.
-3. Explored the different email security tools available under Email & Collaboration in the Microsoft Defender portal.
-4. Created a Safe Links policy named `Mydifir-Kassim-SafeLinksPolicy`.
-5. Enabled URL protection settings, including URL scanning and click tracking, to help protect users from malicious links.
-6. Sent a test email containing a suspicious link to Sarah's mailbox to assess how the Safe Links policy handled it.
+3. Created a Safe Links policy named `Mydifir-Kassim-SafeLinksPolicy`.
+4. Enabled URL protection settings, including URL scanning and click tracking, to help protect users from malicious links.
+5. Sent a test email containing a suspicious link to Sarah's mailbox to assess how the Safe Links policy handled it.
 
 ### Observations
 
@@ -25,7 +24,7 @@ Safe Links can protect URLs in supported email messages and Microsoft Office app
 
 **Key takeaway:** Configuring Safe Links is an important step in reducing the risk of users accessing malicious websites through phishing emails.
 
-## Task 2: Configure Anti-Phishing Protection and Explore Email Investigation Tools
+## Task 2: Configure Anti-Phishing Protection 
 
 ### 1. Configure an Anti-Phishing Policy
 
