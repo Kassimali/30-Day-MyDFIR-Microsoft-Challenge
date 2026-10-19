@@ -83,25 +83,6 @@ Depending on the applicable policy and permissions, authorized administrators ca
 
 **Key takeaway:** Threat Explorer helps analysts investigate email threats, while Quarantine helps them review and manage messages that have been held by security policies.
 
-### 3. Understanding Defender for Office 365 Protection Capabilities
-
-I also explored the relationship between the different email security features available in Microsoft Defender for Office 365.
-
-**Safe Links**
-- Helps protect users from malicious URLs.
-- Can rewrite URLs and check them at the time of click.
-- Can block access to URLs identified as malicious.
-
-**Safe Attachments**
-- Analyzes potentially unsafe email attachments.
-- Uses detonation in a protected environment for supported scenarios to help identify malicious files before they reach users or are opened.
-
-**Anti-Phishing Protection**
-- Helps detect phishing, spoofing, and impersonation attempts.
-- Provides additional protection for configured high-profile users and domains.
-- Supports policy-based handling of suspicious messages, including quarantine and other configured actions.
-
-These capabilities work together to reduce the risk of email-based attacks and provide security analysts with tools to investigate suspicious activity.
 
 ## Task 4: Simulate a Phishing Attack Using Attack Simulation Training
 
