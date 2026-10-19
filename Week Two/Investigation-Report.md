@@ -10,17 +10,17 @@
 
 A credential-harvesting phishing simulation was conducted using Microsoft Defender for Office 365 Attack Simulation Training to evaluate user awareness and response to phishing emails.
 
-## When:  10/6/2026 12:45 PM
+When: 10/6/2026 12:45 PM
 
-##  What : A simulated phishing email containing a credential-harvesting link was sent to test users to assess their responses.
+What : A simulated phishing email containing a credential-harvesting link was sent to test users to assess their responses.
 
-## 5. Who : **Hassan Abdi:** Clicked the simulated phishing link.
+Who : **Hassan Abdi:** Clicked the simulated phishing link.
 
-## 6. Where :The simulation was conducted in a controlled Microsoft 365 lab environment using Microsoft Defender for Office 365 Attack Simulation Training.
+Where :The simulation was conducted in a controlled Microsoft 365 lab environment using Microsoft Defender for Office 365 Attack Simulation Training.
 
-## 7. Why: The simulation aimed to evaluate users' ability to recognize and report phishing emails, identify security awareness gaps, and assess the effectiveness of phishing awareness measures.
+Why: The simulation aimed to evaluate users' ability to recognize and report phishing emails, identify security awareness gaps, and assess the effectiveness of phishing awareness measures.
 
-## . Recommendations
+##  Recommendations
 
 - Ensure Hassan completes the assigned security awareness training.
 - Conduct a follow-up simulation to evaluate improvement.
