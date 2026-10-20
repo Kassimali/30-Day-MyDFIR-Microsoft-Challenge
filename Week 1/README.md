@@ -1,4 +1,4 @@
-# Project 01 — Microsoft Sentinel SOC Lab
+# Week One — Microsoft Sentinel SOC Lab
 
 **MYDFIR Forge — 30-Day Microsoft Challenge**
 
