@@ -1,4 +1,4 @@
-# Week Four: Identity Security with Microsoft Entra ID and Microsoft Sentinel
+## Week Four: Identity Security with Microsoft Entra ID and Microsoft Sentinel
 
 During Week Four of my [30-Day MyDFIR Microsoft Challenge](https://github.com/Kassimali/30-Day-MyDFIR-Microsoft-Challenge/tree/main), I focused on identity security using Microsoft Entra ID and Microsoft Sentinel.
 
