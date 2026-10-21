@@ -97,10 +97,18 @@ This exercise helped me understand how identity logs can support threat hunting 
 
 The following screenshots document my hands-on activities:
 
-1. **Conditional Access Policy Configuration** — The policy settings used to block sign-ins from the selected country.
-2. **Foreign Sign-in Blocked** — The sign-in result and Conditional Access evaluation demonstrating the policy's enforcement.
-3. **KQL Query for Brute-Force Detection** — The query used to identify repeated failed sign-in attempts in Microsoft Sentinel.
-4. **Sign-in and Audit Log Investigation** — Relevant identity events queried in Sentinel, if captured.
+**Conditional Access Policy Configuration** 
+
+![Conditional Access Policy](./screenshots/Mydifir-kassim-CAPolicy.png)
+
+2. **Foreign Sign-in Blocked** 
+
+![foreign-signin-blocked](./screenshots/foreign-signin-blocked.png)
+
+ **KQL Query for Brute-Force Detection** 
+
+ ![bruteforce-detection-query](./screenshots/bruteforce-detection.png)
+
 
 ## What I Learned
 

@@ -1,26 +1,7 @@
-# 30-Day MyDFIR Microsoft Challenge
+# 30-Day MyDFIR Microsoft Challenge — Portfolio Introduction
 
-> **Personal portfolio project — completed as part of the MyDFIR community challenge.**
+I am glad to have participated in the **30-Day MyDFIR Microsoft Challenge**, designed to equip security analysts with the knowledge and practical skills they need to succeed with Microsoft security solutions. I completed this challenge as part of the **MYDFIR SOC Analyst Path**, documenting my learning journey, hands-on exercises, investigations, and key takeaways throughout the program.
 
-This repository documents my hands-on learning and projects completed during the 30-Day MyDFIR Microsoft Challenge.
+The challenge provided me with an opportunity to explore cloud security technologies, particularly security operations within the Microsoft ecosystem. Through practical labs, I gained hands-on experience with **Microsoft Azure, Microsoft Defender XDR, Microsoft Sentinel, and Microsoft Entra ID**, focusing on security monitoring, threat detection, alert investigation, and identity protection.
 
-The work, investigations, queries, screenshots, and reflections in this repository represent my own learning and implementation. The repository is maintained as part of my cybersecurity portfolio.
-
----
-
-## Projects
-
-### Project 1 — Microsoft Sentinel SOC Lab
-...
-
-### Project 2 — ...
-...
-
-## About This Challenge
-...
-
-## Tools & Technologies
-...
-
-## Resources
-...
+I have organized this portfolio into **four weekly sections**, each documenting the tasks I completed, the tools and techniques I explored, the investigations I performed, and the lessons I learned. This portfolio reflects my progress in developing practical security operations skills and building a strong foundation for my journey as a SOC Analyst.
