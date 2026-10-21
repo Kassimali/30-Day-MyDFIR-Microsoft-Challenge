@@ -1,14 +1,14 @@
-Week One: Microsoft Sentinel SOC Lab
+## Week One: Microsoft Sentinel SOC Lab
 
-MYDFIR Forge — 30-Day Microsoft Challenge
+### MYDFIR Forge — 30-Day Microsoft Challenge
 
-Project Overview
+## Project Overview
 
 As part of the MYDFIR Forge 30-Day Microsoft Challenge, I completed Week One by building a hands-on Security Operations Center (SOC) lab using Microsoft Sentinel, a cloud-based SIEM solution.
 
 The main goal was to build a working security monitoring environment, collect and analyze security logs, create detection rules, investigate alerts, and practice threat hunting using Kusto Query Language (KQL).
 
-Task 1: Set Up the Microsoft Sentinel Lab
+## Task 1: Set Up the Microsoft Sentinel Lab
 
 I created an Azure environment and deployed the following resources:
 
@@ -22,7 +22,7 @@ Microsoft Sentinel: Added Sentinel to the Log Analytics workspace to enable secu
 
 Microsoft Sentinel Training Lab: Deployed the training lab to populate the environment with sample security data for detection and investigation exercises.
 
-Task 2: Create and Investigate a Brute-Force Detection
+## Task 2: Create and Investigate a Brute-Force Detection
 
 After setting up the environment, I moved on to practical SOC activities.
 
@@ -32,7 +32,7 @@ I then investigated the generated alert and analyzed the available authenticatio
 
 This exercise helped me understand how analytics rules can identify suspicious authentication patterns and why alerts require further investigation before reaching a conclusion.
 
-Task 3: Perform Threat Hunting Using KQL
+## Task 3: Perform Threat Hunting Using KQL
 
 I used Kusto Query Language (KQL) to search and analyze security data, identify suspicious activity, and investigate potential indicators of attack.
 
@@ -50,7 +50,7 @@ Practiced writing KQL queries to identify and investigate potentially malicious 
 
 I also explored Microsoft Defender Threat Intelligence (MDTI) to understand how threat intelligence can support threat hunting and investigation.
 
-Task 4: Troubleshoot the Training Lab Deployment
+## Task 4: Troubleshoot the Training Lab Deployment
 
 Deploying the Microsoft Sentinel Training Lab presented several challenges.
 
